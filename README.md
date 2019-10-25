@@ -1,6 +1,7 @@
 # VR-Journalism-Project
 
 ## Description
+Cross collaboration with the Journalism Dept. and The Media Studies, and Game Programming Dept.
 
 ## Technical Instructions
 
@@ -10,7 +11,7 @@ When contributing to the project you must make sure to fetch every single time u
 
 #### Initial Setup
 
-After your first pull please make sure to download and import the packages from the package manager. Unity's console should tell you when you load in the project.
+After your first pull please make sure to download and import the packages from the Package Manager. Unity's console should tell you what you need to load in the project.
 
 #### Import Media
 
