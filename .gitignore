@@ -34,3 +34,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.MP4
+VR/Assets/360Movies/MSRA7831_injected.MP4.meta
