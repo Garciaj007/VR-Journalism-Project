@@ -4,7 +4,9 @@
 [Bb]uild/
 [Bb]uilds/
 [Aa]ssets/AssetStoreTools*
-[Aa]ssets/Media/*
+
+# Excluding Media Files
+VR-Journalism-Project/Assets/Media/*
 
 # Visual Studio cache directory
 .vs/
@@ -36,4 +38,4 @@ sysinfo.txt
 *.apk
 *.unitypackage
 *.MP4
-VR/Assets/360Movies/MSRA7831_injected.MP4.meta
+
