@@ -39,3 +39,5 @@ sysinfo.txt
 *.unitypackage
 *.MP4
 
+# Ignore Mixed Reality Toolkit
+VR-Journalism-Project/Assets/MixedRealityToolkit*
