@@ -25,9 +25,9 @@ When making changes always make changes to your own scenes, this way there is a 
 
 ### Mixed Reality Toolkit Development
 
-When pulling from the [Mixed-Reality-Toolkit-Dev](Garciaj007/VR-Journalism-Project/tree/Mixed-Reality-Toolkit-Dev) branch you **Must** download these Unity packages and [import](https://docs.unity3d.com/Manual/AssetPackages.html#ImportingPackages) them into the project.
+When pulling from the [Mixed-Reality-Toolkit-Dev](https://github.com/Garciaj007/VR-Journalism-Project/tree/Mixed-Reality-Toolkit-Dev) branch you **Must** download these Unity packages and [import](https://docs.unity3d.com/Manual/AssetPackages.html#ImportingPackages) them into the project.
 
 * Microsoft.MixedReality.Toolkit.Unity.Foundation.2.1.0.unitypackage
 * Microsoft.MixedReality.Toolkit.Unity.Examples.2.1.0.unitypackage
 
-Find them [here](Microsoft/MixedRalityToolkit-Unity/releases).
+Find them [here](https://github.com/Microsoft/MixedRealityToolkit-Unity/releases).
