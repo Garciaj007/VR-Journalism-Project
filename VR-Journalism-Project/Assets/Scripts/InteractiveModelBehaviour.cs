@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class InteractiveModelBehaviour : MonoBehaviour
 {
-
     [SerializeField] private float maxSpeed = 1.0f;
     [SerializeField] private float arrivalDistance = 1.0f;
     [SerializeField] private float maxAngularSpeed = 1.0f;
@@ -24,7 +19,6 @@ public class InteractiveModelBehaviour : MonoBehaviour
     {
         rigid = GetComponent<Rigidbody>();
         origin = transform.position;
-        Debug.Log(origin);
     }
 
     void FixedUpdate()
@@ -47,8 +41,6 @@ public class InteractiveModelBehaviour : MonoBehaviour
         
         rigid.AddForce(desired);
         rigid.AddTorque(torque, forceMode);
-
-        Debug.Log(rigid.angularVelocity);
 
         rigid.angularVelocity = rigid.angularVelocity.magnitude > maxAngularSpeed
             ? rigid.angularVelocity.normalized * maxAngularSpeed 

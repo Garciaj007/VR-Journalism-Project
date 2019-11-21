@@ -7,8 +7,8 @@ public class SceneManager : MonoBehaviour
 {
     public static SceneManager Instance { get; private set; }
 
-    private float[] volumesArray = {-80.0f, -30.0f, -10.0f, 0.0f};
-    private float volumeIndex = 0;
+    private readonly float[] volumesArray = {-80.0f, -20.0f, -2.0f, 4.0f};
+    private int volumeIndex = 3;
 
     [SerializeField] private AudioMixer mainAudioMixer;
 
@@ -20,12 +20,14 @@ public class SceneManager : MonoBehaviour
         Instance = this;
     }
 
-    // Update is called once per frame
-    void Update()
+    private int FindVolumeIndex()
     {
-        
+        volumeIndex++;
+        volumeIndex = volumeIndex > volumesArray.Length - 1 ? 0 :
+            volumeIndex < 0 ? volumesArray.Length - 1 : volumeIndex;
+        return volumeIndex;
     }
 
-    public void SetAudioLevel(float volumeLevel) =>
-        mainAudioMixer.SetFloat("MasterVolume", volumeLevel);
+    public void SetAudioLevel() =>
+        mainAudioMixer.SetFloat("MasterVolume", volumesArray[FindVolumeIndex()]);
 }
