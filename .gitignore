@@ -3,6 +3,7 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+[Bb]uilds_UWP/
 [Aa]ssets/AssetStoreTools*
 
 # Excluding Media Files
@@ -39,3 +40,8 @@ sysinfo.txt
 *.unitypackage
 *.MP4
 
+# Ignore Mixed Reality Toolkit
+VR-Journalism-Project/Assets/MixedRealityToolkit*
+
+#Ignore TextMesh Pro
+VR-Journalism-Project/Assets/TextMesh Pro*
