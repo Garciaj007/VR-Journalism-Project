@@ -3,7 +3,6 @@ using Microsoft.MixedReality.Toolkit.UI;
 using UnityEngine;
 using UnityEngine.Video;
 using TMPro;
-
 public class VideoManager : MonoBehaviour {
 
     [System.Serializable]
